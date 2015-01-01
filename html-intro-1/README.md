@@ -8,7 +8,7 @@ This assignment serves to reinforce HTML, CSS, keyboard shortcuts, working with 
 
 - familiarize yourself with all the HTML tags
 - familiarize yourself with a lot of CSS properties
-- familiarize yourself with navigating through the terminal, and opening workspaces with a code editor (such as Sublime Text)
+- familiarize yourself with navigating through the terminal, and opening workspaces with a code editor (such as Sublime Text, Atom, vim, etc..)
 - reinforce concepts of layout and `display` types
 - familiarize yourself with Chrome's Developer Tools and keyboard shortcuts
 
@@ -21,7 +21,7 @@ After completing this assignment, you should be able to create a blog layout fro
 After completing this assignment, you should be able to effectively:
 
 - navigate the folder structure in the terminal
-- open workspaces and create files with Sublime Text
+- open workspaces and create files with Sublime Text, Atom, vim, etc...
 - generate boilerplate HTML code in Sublime Text
 - find and use resources (like Lorem Ipsum and GIFs)
 - create simple, single column layouts
@@ -40,7 +40,7 @@ After completing this assignment, you should be able to effectively:
 
 ### Requirements
 
-- a working site on Github pages
+- a working, publicly visible website with a public URL (i.e. on Github pages, with DivShot, on Heroku, etc)
 
 ## Normal Mode
 
@@ -108,6 +108,8 @@ http://learnlayout.com/ outlines a number of things, however here are some gener
 
 - http://learnlayout.com/
 - http://meettheipsums.com/
-- List of HTML tags: http://www.w3schools.com/tags/
-- All the CSS properties! http://www.w3schools.com/cssref/
+- Mozilla Developer Network: https://developer.mozilla.org/en-US/
+- List of HTML tags: https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+- List of HTML attributes: https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+- All the CSS properties! https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 - You need GIFs, so get 'em here: http://giphy.com/
