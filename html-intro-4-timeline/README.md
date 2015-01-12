@@ -1,4 +1,4 @@
-# html-intro-3-tshirts
+# html-intro-4-timeline
 
 ## Description
 
@@ -23,7 +23,7 @@ After completing this assignment, you should be able to effectively:
 
 ### Deliverables
 
-- a git repo containing:
+* A repo containing at least:
     - `index.html`
     - stylesheets (`scss/`, `css/`, and `dist/` folders)
     - `images` folder
@@ -37,7 +37,7 @@ After completing this assignment, you should be able to effectively:
 
 Recreate the following layout in HTML and CSS:
 
-![](./tshirts.gif)
+![](./timeline.png)
 
 ## Notes
 
