@@ -14,7 +14,7 @@ After completing this assignment, you should:
 * Grasp why functions are important
 * Understand arrays and loops
 * Be able to recite the meaning and importance of SOLID principles
-* Be able to breakdown a complex seuqence into a series of steps, use jQuery AJAX, handle callbacks and asynchronous code, and write to the DOM with JS and templates
+* Be able to breakdown a complex sequence into a series of steps, use jQuery AJAX, handle callbacks and asynchronous code, and write to the DOM with JS and templates
 
 
 ### Performance Objectives
