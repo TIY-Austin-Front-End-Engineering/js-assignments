@@ -34,7 +34,7 @@ After completing this assignment, you should be able to effectively create a sim
 
 ## Easy Mode
 
-Build a github profile app that prints out some info from the Github API.
+Build a github profile app that prints out some info from the Github API and your repos. For the design, you should recreate the UI for the Github Repos page (e.g. https://github.com/matthiasak?tab=repositories).
 
 The information from the Github API that you will display includes information from your github user account and repositories.
 
