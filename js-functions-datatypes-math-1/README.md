@@ -14,7 +14,7 @@ After completing this assignment, you should:
 * Grasp why functions are important
 * Understand arrays and loops
 * Be able to recite the meaning and importance of SOLID principles
-* By able to breakdown a simple process of mathematical steps into a series of statements in JS
+* Be able to breakdown a simple process of mathematical steps into a series of statements in JS
 
 ### Performance Objectives
 
@@ -44,10 +44,3 @@ Instead of using the browser and the Chrome Dev Tools console to look at your JS
 
 In addition to the [easy mode](#easy-mode), write a function in "exercises-1" that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
-## Notes
-
-Notes go here...
-
-## Additional Resources
-
-* Read []()

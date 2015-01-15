@@ -41,6 +41,7 @@ The information from the Github API that you will display includes information f
 - Write `$.getJSON()` requests to:
     - `https://api.github.com/users/<username>`
     - `https://api.github.com/users/<username>/repos`
+
 - After loading data from the Github API, write at least the following information to the DOM:
     - name
     - blog

@@ -14,7 +14,7 @@ After completing this assignment, you should:
 * Grasp why functions are important
 * Understand arrays and loops
 * Be able to recite the meaning and importance of SOLID principles
-* By able to breakdown a simple process of mathematical steps into a series of statements in JS
+* Be able to breakdown a simple process of mathematical steps into a series of statements in JS
 
 ### Performance Objectives
 
@@ -39,11 +39,3 @@ After completing this assignment, you should be able to effectively use:
 Create a new Github repo and add [./exercises-1.js](./exercises-1.js) to it. Make your edits to the functions in the "exercises-1" file.
 
 Instead of using the browser and the Chrome Dev Tools console to look at your JS output, use `node exercises-1.js` to print the output to your terminal.
-
-## Notes
-
-Notes go here...
-
-## Additional Resources
-
-* Read []()
