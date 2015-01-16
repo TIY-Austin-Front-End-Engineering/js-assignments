@@ -73,13 +73,31 @@ console.assert( longest(2, 4, 6, 8) === 5 )
 
 // 5. write a function that can sort an array of Date objects (returns a NEW ARRAY of Date's)
 
-function longest(){
+function sort(){
     // parse arguments into an array
     var args = [].slice.call(arguments);
 
     // .. do something with each element of args
     // YOUR CODE HERE
 }
+
+var dates = [
+    new Date("Oct 2, 2015"),
+    new Date("Oct 1, 2015"),
+    new Date("Jan 2, 2015"),
+    new Date("Dec 5, 2014"),
+    new Date("Mar 27, 2015")
+]
+
+var sorted = sort(dates[0], dates[1], dates[2], dates[3], dates[4]);
+
+console.assert(
+    sorted[0] === dates[3] &&
+    sorted[1] === dates[2] &&
+    sorted[2] === dates[4] &&
+    sorted[3] === dates[1] &&
+    sorted[4] === dates[0] &&
+)
 
 /**
  * PART II
