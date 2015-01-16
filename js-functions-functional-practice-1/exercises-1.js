@@ -1,14 +1,133 @@
 //  Part I
 
-// use EACH the iteration methods discussed in class today (for loop, Array.forEach, custom forEach) for EACH of the following problems
-// 1. calculate the sum of numbers (can be any number of arguments)
-// 2. calculate the average of numbers
-// 3. find the largest number of the inputs
-// 4. find the longest string of the inputs
-// 5. given an array of Date() objects (Oct 4th 2014, Oct 3rd 2014, Sept 30th 2014, Sept 1st 2012, March 13th 2010), in that order, sort them chronologically. Use http://devdocs.io/javascript/global_objects/date for reference on creating Date() objects with a specific date.
+/**
+ * use any of the looping methods discussed in class
+ *
+ * 1. for loop,
+ * 2. Array.forEach,
+ * 3. custom forEach
+ *
+ * to complete the following problems
+ */
+
+// 0. write your own forEach() that takes two arguments: an array, and a callback
+
+function forEach(array, callback){
+    // YOUR CODE HERE
+}
+
+// testing your code with console.assert
+var total = 1;
+forEach([1, 2, 3, 4], function(a){ total *= a; });
+// and finally assert; if this fails, the program stops
+console.assert(total === 24);
 
 
-// Part II
+// 1. calculate the sum of numbers (returns the sum (A NUMBER))
+
+function sum(){
+    // parse arguments into an array
+    var args = [].slice.call(arguments);
+
+    // .. do something with each element of args
+    // YOUR CODE HERE
+}
+
+console.assert( sum(1, 2, 3, 4, 5) === 15 )
+
+// 2. calculate the average of numbers (returns the average (A NUMBER))
+
+function average(){
+    // parse arguments into an array
+    var args = [].slice.call(arguments);
+
+    // .. do something with each element of args
+    // YOUR CODE HERE
+}
+
+console.assert( average(2, 4, 6, 8) === 5 )
+
+// 3. find the largest number of the inputs (returns the largest input (A NUMBER))
+
+function largest(){
+    // parse arguments into an array
+    var args = [].slice.call(arguments);
+
+    // .. do something with each element of args
+    // YOUR CODE HERE
+}
+
+console.assert( largest(2, 4, 6, 8) === 5 )
+
+// 4. find the longest string of the inputs (returns the longest input (A STRING))
+
+function longest(){
+    // parse arguments into an array
+    var args = [].slice.call(arguments);
+
+    // .. do something with each element of args
+    // YOUR CODE HERE
+}
+
+console.assert( longest(2, 4, 6, 8) === 5 )
+
+// 5. write a function that can sort an array of Date objects (returns a NEW ARRAY of Date's)
+
+function longest(){
+    // parse arguments into an array
+    var args = [].slice.call(arguments);
+
+    // .. do something with each element of args
+    // YOUR CODE HERE
+}
+
+/**
+ * PART II
+ *
+ * For each of the following Array methods,
+ *
+ * 1. use them in an example
+ * 2. write a console.assert to test them
+ */
+
+// .sort()
+
+// .concat()
+
+// .indexOf()
+
+// .split()
+
+// .join()
+
+// .pop()
+
+// .push()
+
+// .slice()
+
+// .splice()
+
+// .shift()
+
+// .unshift()
+
+// .filter()
+
+// .map()
+
+/**
+ * PART III
+ *
+ * Fill in the sections below marked 'YOUR CODE HERE'.
+ *
+ * The code below should find all customers whose first-names start with 'J',
+ * map() those people into an array of objects that have a name property:
+ *
+ * i.e. { name : c.firstname + " " + c.lastname }
+ *
+ * then sort them alphabetically
+ */
 
 // set up arrays
 var numbers = [1, 12, 4, 18, 9, 7, 11, 3, 101, 5, 6];
@@ -30,15 +149,14 @@ var customers = [{
 
 console.log(customers);
 
-// YOUR CODE WILL GO IN THIS NEXT SECTION
-// find all customers whose firstname starts with 'J',
-// map() those people into an array of objects like: { name : c.firstname + " " + c.lastname }
-// then sort alphabetically
-
 var projections = customers
-    .filter(function(c) { /* ... */ })
-    .map(function(c) { /* ... */ })
-    .sort(sortByName);
+.filter(function(c) {
+    // YOUR CODE HERE
+})
+.map(function(c) {
+    // YOUR CODE HERE
+})
+.sort(sortByName);
 
 function sortByName(c1, c2) {
     "use strict";
