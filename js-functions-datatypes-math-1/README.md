@@ -26,7 +26,7 @@ After completing this assignment, you should be able to effectively use:
 
 ### Deliverables
 
-* A repo containing atleast:
+* A repo containing at least:
   * `main.js`
 
 ### Requirements
@@ -36,13 +36,13 @@ After completing this assignment, you should be able to effectively use:
 
 ## Easy Mode
 
-Create a new Github repo and add [./exercises-1.js] to it. Make your edits to the functions in the "exercises-1" file.
+Create a new Github repo and add [`exercises-1.js`](exercises-1.js) to it. Make your edits to the functions in that file.
 
 Instead of using the browser and the Chrome Dev Tools console to look at your JS output, use `node exercises-1.js` to print the output to your terminal.
 
 ## Hard Mode
 
-In addition to the [easy mode](#easy-mode), write a function in "exercises-1" that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
+In addition to the [easy mode](#easy-mode), write a function in `exercises-1` that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
 
 ## Notes
 
