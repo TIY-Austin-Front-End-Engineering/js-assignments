@@ -14,7 +14,7 @@ After completing this assignment, you should:
 * Be able to write a series of functions that achieve a series of steps
 * Understand arrays and loops, Math oeprations, Stirng operations, and DOM accessores
 * Be able to recite the meaning and importance of SOLID principles
-* By able to breakdown a simple process of mathematical steps into a series of statements in JS
+* Be able to breakdown a simple process of mathematical steps into a series of statements in JS
 
 ### Performance Objectives
 
