@@ -4,7 +4,9 @@
     "title": "github-api-profile",
     "description": "github-api-profile",
     "difficultyModes": [
-        "Normal"
+        "Normal",
+        "Hard",
+        "Nightmare"
     ],
     "keywords": [
         "JavaScript"
