@@ -1,0 +1,14 @@
+{
+    "name": "map-filter-sort-jquery-etsy",
+    "version": "0.0.1",
+    "title": "map-filter-sort-jquery-etsy",
+    "description": "map-filter-sort-jquery-etsy",
+    "difficultyModes": [
+        "Normal",
+        "Hard",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
