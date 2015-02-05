@@ -20,7 +20,7 @@ After completing this assignment, you should:
 
 ### Performance Objectives
 
-After completing this assignment, you should be able to effectively create a search for and replace patterns in strings.
+After completing this assignment, you should be able to effectively search for and replace patterns in strings.
 
 ## Details
 
