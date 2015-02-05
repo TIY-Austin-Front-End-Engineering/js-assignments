@@ -26,7 +26,7 @@ After completing this assignment, you should be able to effectively create a sea
 
 ### Deliverables
 
-* a `regex.js` file (no `gh-pages` needed)
+* a repo containing a `regex.js` file (no `gh-pages` needed)
     - this file should be run and pass the `console.assert()'s` provided
 
 ### Requirements
@@ -37,13 +37,14 @@ After completing this assignment, you should be able to effectively create a sea
 
 ## Normal Mode
 
+- use the [regex.js](./regex.js) provided
 - fill in the regular expressions to make the `console.assert()'s` in `regex.js` pass
 - test your code with `node regex.js`
 
-## Notes
+<!-- ## Notes -->
 
-Notes go here...
+<!-- Notes go here... -->
 
-## Additional Resources
+<!-- ## Additional Resources -->
 
-* Read []()
+<!-- * Read []() -->
