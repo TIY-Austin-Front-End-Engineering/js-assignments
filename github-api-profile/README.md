@@ -34,7 +34,9 @@ After completing this assignment, you should be able to effectively create a sim
 
 ## Easy Mode
 
-Build a github profile app that prints out some info from the Github API and your repos. For the design, you should recreate the UI for the Github Repos page (e.g. https://github.com/matthiasak?tab=repositories).
+Build a github profile app that prints out some info from the Github API and your repos. __For the design, you should recreate the Github Repos Tab to the best of your ability__.
+
+> Github tab page: https://github.com/matthiasak?tab=repositories
 
 The information from the Github API that you will display includes information from your github user account and repositories.
 
@@ -50,6 +52,14 @@ The information from the Github API that you will display includes information f
     - avatar_url
     - html_url
     - and list all of your repositories
+
+## Hard Mode
+
+Use external template files. Your code will make AJAX requests to Github (for data) and your project directory (for HTML templates).
+
+## Nightmare Mode
+
+Create a `GithubClient` Constructor and Prototype chain that implements all the above functionality.
 
 ## Notes
 

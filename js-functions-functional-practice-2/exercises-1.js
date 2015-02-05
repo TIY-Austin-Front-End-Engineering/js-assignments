@@ -1,11 +1,3 @@
-/*
-This is to be done as a group assignment. We may have one group of 3 students.
-
-    1. Send me a hipchat or email about who is on who's team
-    2. Have one person Create a Github Repo for the project, then each other person will need to be added as collaborators (see https://help.github.com/articles/adding-collaborators-to-a-personal-repository/).
-    3. Remember back to our discussion on Git and merge conflicts. Those problems can and probably will arise. :-)
-*/
-
 // 1. Write your own forEach function (like we did in class). It takes the array and the function (referred to as a callback) as arguments:
 
 function forEach(list, callback) { /* Do stuff */ }
