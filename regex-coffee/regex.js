@@ -4,7 +4,7 @@ var text = "plunger pot caffeine froth caramelization barista, crema eu to go cr
 
 text = text.replace(/your regex here/, "your replacement here")
 
-console.assert(text.match(/espresso yum yum yum/ig) === null)
+console.assert(text.match(/espresso yum yum yum/ig) !== null)
 
 // Part 2: Make any question (?) an exclamation (!).
 
