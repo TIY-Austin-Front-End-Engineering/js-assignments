@@ -27,9 +27,8 @@ text = text.replace(/your regex here/, "your replacement here")
 // testing for any occurrences of 2 letters, but no more:
 
 var myRe = /(\w)\1+/ig;
-var str = "abbcdefabh";
 var myArray = [], t;
-while ((t = myRe.exec(str)) !== null) {
+while ((t = myRe.exec(text)) !== null) {
     myArray = myArray.concat(t)
 }
 matches = matches.filter(function(v){
