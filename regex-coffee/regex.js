@@ -22,5 +22,17 @@ console.assert(text.match(/café au lait/ig) === null)
 
 text = text.replace(/your regex here/, "your replacement here")
 
-console.assert(text.match(/(\w)\1[^ \1]/ig) === null)
 
+
+// testing for any occurrences of 2 letters, but no more:
+
+var myRe = /(\w)\1+/ig;
+var str = "abbcdefabh";
+var myArray = [], t;
+while ((t = myRe.exec(str)) !== null) {
+    myArray = myArray.concat(t)
+}
+matches = matches.filter(function(v){
+    return v.length === 2
+})
+console.assert(matches.length === 0)
