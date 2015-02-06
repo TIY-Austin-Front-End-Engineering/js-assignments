@@ -1,3 +1,13 @@
+var mocha = require('mocha'),
+    chai = require('chai');
+
+var assert = chai.assert;
+var expect = chai.expect;
+
+//--- your setup code goes here (i.e. create test instances of your Constructors)
+// var Person = require('../Person.js').Person;
+//--- your setup code goes above here
+
 var FILL_ME_IN;
 describe("About Arrays", function() {
 
