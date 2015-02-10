@@ -33,7 +33,7 @@ After completing this assignment, you be able to effectively use
 ### Requirements
 
 * No JSHint warnings or errors
-* All requirements met to specification
+* All specifications met below
 
 ## Normal Mode
 
