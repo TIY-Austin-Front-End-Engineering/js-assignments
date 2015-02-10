@@ -2,7 +2,7 @@
 
 ## Description
 
-Create an app with Backbone that has two Views that "talk" to each other.
+Create an app with Backbone that has three Views that "talk" to each other.
 
 ## Objectives
 
