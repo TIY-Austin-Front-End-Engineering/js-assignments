@@ -12,8 +12,8 @@ After completing this assignment, you should…
 
 * Understand the difference between creating your own Backbone constructors and Backbone instances
 * Understand and be comfortable using:
-    - `Backbone.X.extend`
-    - `Bacbone.Events`
+    - `Backbone.*.extend(...)`
+    - The `Backbone.Events` mixin/prototype
 * Understand what `this` refers to inside of the methods you extend into Backbone.View
 
 ### Performance Objectives
