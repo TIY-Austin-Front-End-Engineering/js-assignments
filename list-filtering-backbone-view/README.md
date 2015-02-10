@@ -10,7 +10,7 @@ Write a page with a list of items (books, bands, whatever) and a search input an
 After completing this assignment, you should…
 
 * Understand the difference between Backbone's `this.on` method and `this.listenTo`.
-* Understand what `this` refers to inside of of the methods you extend into Backbone.View
+* Understand what `this` refers to inside of the methods you extend into Backbone.View
 
 ### Performance Objectives
 
