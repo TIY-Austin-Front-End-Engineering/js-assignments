@@ -42,10 +42,10 @@ describe("About Arrays", function() {
         expect(array.toString()).to.equal(FILL_ME_IN);
 
         array[1] = 2;
-        expect(array).to.equal([1, FILL_ME_IN]);
+        expect(array).to.deep.equal([1, FILL_ME_IN]);
 
         array.push(3);
-        expect(array).to.equal(FILL_ME_IN);
+        expect(array).to.deep.equal(FILL_ME_IN);
     });
 
     it("should understand array length", function() {
