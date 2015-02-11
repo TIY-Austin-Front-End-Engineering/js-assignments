@@ -45,7 +45,7 @@ After completing this assignment, you be able to effectively use
 
 ## Normal Mode
 
-Create an app that uses your device/computer's geolocation, and makes a request to Foursquare with that (lat,lng) and any search parameters.
+Create an app that uses your device/computer's geolocation, and makes a request to Forecast.io with that (lat,lng) and any search parameters.
 
 - You should wireframe and design a basic layout before starting this app.
 - Your app should use HTML/SCSS extensively for styling.
