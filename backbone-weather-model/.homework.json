@@ -1,0 +1,13 @@
+{
+    "name": "backbone-weather-model",
+    "version": "0.0.1",
+    "title": "backbone-weather-model",
+    "description": "backbone-weather-model",
+    "difficultyModes": [
+        "Normal",
+        "Nightmare"
+    ],
+    "keywords": [
+        "JavaScript"
+    ]
+}
