@@ -1,0 +1,14 @@
+{
+    "name": "angular-repeat",
+    "version": "0.0.1",
+    "title": "angular-repeat",
+    "description": "Modify the code to get the data within the controllers to display in a list.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "angular",
+        "ng-repeat"
+    ]
+}
