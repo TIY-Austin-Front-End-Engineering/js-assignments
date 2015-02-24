@@ -1,0 +1,15 @@
+{
+    "name": "angular-contact-form",
+    "version": "0.0.1",
+    "title": "Angular Contact Form",
+    "description": "Angular Contact Form",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "Angular",
+        "Contact",
+        "Form",
+        "JavaScript"
+    ]
+}
