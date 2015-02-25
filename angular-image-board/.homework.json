@@ -1,0 +1,15 @@
+{
+    "name": "angular-image-board",
+    "version": "0.0.1",
+    "title": "angular-image-board",
+    "description": "Create an image board that saves submissions to tiny pizza server using angular.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "$http",
+        "Angular",
+        "JavaScript",
+        "ng-repeat"
+    ]
+}
