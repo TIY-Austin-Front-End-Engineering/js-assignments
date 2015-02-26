@@ -17,14 +17,9 @@ Visual Inspiration:
 
 After completing this assignment, you should…
 
-* Understand the difference between creating your own Backbone constructors and Backbone instances
-* Understand and be comfortable using:
-    - `Backbone.*.extend(...)`
-    - The `Backbone.Events` mixin/prototype
-    - `Backbone.View`, `Backbone.Model`, `Backbone.Collection`, `Backbone.Router`
-* Understand what `this` refers to inside of the methods you extend from a Backbone Constructor
-* Understand manipulating and using Backbone Models and their events
-* Understand manipulating and using Backbone Collections and their events
+* Understand the difference in rednering techniques (React's Virtual DOM vs. Backbone's Views and templating)
+* Understand how to handle a wide range of inputs and input events in React
+* Understand 3d transforms, CSS animations, and form skinning
 
 ### Performance Objectives
 
