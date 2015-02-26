@@ -7,9 +7,13 @@ Create a React Component that creates an interface for the Soundcloud SDK (https
 - The Soundcloud SDK will provide you access to searching for and streaming a Soundcloud song/sound.
 - React will provide the UI and event handling surrounding the streaming feature.
 
+For a quick tutorial on using the Souncdloud API, see: http://www.codecademy.com/en/tracks/soundcloud
+
 Visual Inspiration:
 
 ![](./screen.png)
+
+![](./1.gif)
 
 ## Objectives
 
