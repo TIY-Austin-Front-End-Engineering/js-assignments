@@ -54,7 +54,7 @@ After completing this assignment, you be able to effectively use
 * No JSHint warnings or errors
 * All specifications met below
 
-## Normal Mode
+## Easy Mode
 
 Create an app that has a form for entering Contact information (described above).
 
@@ -66,19 +66,19 @@ Create an app that has a form for entering Contact information (described above)
 - You should have one Backbone.View sub-classes: a HomeView constructor.
 - You should have a Contact Model constructor and Collection that uses the Contact model
 
-## Hard Mode
+## Normal Mode
 
 Using a persistence layer (localStorage, Parse, Firebase, some REST API like a Rails server), add the ability for your Backbone Models/Collections to load from the data resource.
 
 Any subsequent page refreshes should re-render existing data on the server.
 
-## Nightmare Mode 1
+## Hard Mode
 
 Add user authentication with Facebook or a Login form. Your Router should show a login/registration page if a user is not logged in, otherwise it should show the HomeView.
 
-When a user logs in, they have access to a private list of Task items that no-one else can view.
+When a user logs in, they have access to a private list of Contact items that no-one else can view.
 
-## Nightmare Mode 2
+## Nightmare Mode
 
 Instead of Backbone Views, use React to render the views and handle the DOM events.
 

@@ -1,8 +1,8 @@
 {
-    "name": "backbone-contacts-collections",
+    "name": "react-soundcloud",
     "version": "0.0.1",
-    "title": "backbone-contacts-collections",
-    "description": "backbone-contacts-collections",
+    "title": "react-soundcloud",
+    "description": "react-soundcloud",
     "difficultyModes": [
         "Easy",
         "Normal",
