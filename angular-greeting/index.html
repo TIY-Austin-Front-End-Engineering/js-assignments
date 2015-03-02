@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="basic">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div ng-controller="BasicCtrl">
+			<input type="text" ng-model="name">
+			<div ng-bind="greeting"></div>
+            <button ng-click="logClick()">Submit</button>
+		</div>
+
+        <script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+        <script type="text/javascript" src="scripts/services.js"></script>
+        <script type="text/javascript" src="scripts/controllers.js"></script>
+        <script type="text/javascript" src="scripts/app.js"></script>
+    </body>
+</html>
