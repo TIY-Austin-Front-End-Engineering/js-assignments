@@ -1,0 +1,16 @@
+{
+    "name": "angular-fancy-table",
+    "version": "0.0.1",
+    "title": "Angular Fancy Table",
+    "description": "Use angular to create a sortable, filterable data table that pulls data from an API.",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "$http",
+        "API",
+        "JavaScript",
+        "angular",
+        "table"
+    ]
+}
