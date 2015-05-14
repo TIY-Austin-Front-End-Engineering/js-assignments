@@ -16,9 +16,18 @@ After completing this assignment, you should be able to:
 
 ### Instructions
 
-Clone this repo with `git clone`, then add your own remote with `hub create fizzbuzz`. Modify `fizzbuzz.js` to make the tests/assertions pass.
+```sh
+# cd into GH project folder
+# then mkdir <projectName>
+# then git init
+# then 
 
-Test your code with `npm test`
+curl https://raw.githubusercontent.com/matthiasak/js-assignments/master/js-intro-numbers-loops-fizzbuzz/fizzbuzz.js > fizzbuzz.js
+```
+
+then add your own remote with `hub create fizzbuzz`. Modify `fizzbuzz.js` to make the tests/assertions pass.
+
+Test your code with `node fizzbuzz.js`
 
 ### Requirements
 
