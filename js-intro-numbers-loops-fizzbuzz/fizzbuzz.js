@@ -5,7 +5,9 @@
  */
 
 function sumOfArray(arr){
+    var sum = 0
     // YOUR CODE HERE
+    return sum
 }
 
 console.assert(sumOfArray([1, 2]) === 3);
