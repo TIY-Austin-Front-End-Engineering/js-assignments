@@ -27,12 +27,12 @@ function maxOfThree(a, b, c){
     // YOUR CODE HERE
 }
 
-console.assert(max(1,3,2) === 3);
-console.assert(max(0,3,-1) === 3);
-console.assert(max(10,3,50) === 50);
-console.assert(max(-1,-3,-10) === -1);
-console.assert(max("aaa",0,1) === 1);
-console.assert(max("aaa","bbb","ccc") === NaN);
+console.assert(maxOfThree(1,3,2) === 3);
+console.assert(maxOfThree(0,3,-1) === 3);
+console.assert(maxOfThree(10,3,50) === 50);
+console.assert(maxOfThree(-1,-3,-10) === -1);
+console.assert(maxOfThree("aaa",0,1) === 1);
+console.assert(maxOfThree("aaa","bbb","ccc") === NaN);
 
 /**
  * PART 2
