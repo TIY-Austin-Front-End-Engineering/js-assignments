@@ -16,7 +16,16 @@ After completing this assignment, you should be able to:
 
 ### Instructions
 
-Clone this repo with `git clone`, then add your own remote with `hub create rovarspraket`. Modify `roverspraket.js` to make the tests/assertions pass.
+```sh
+# cd into GH project folder
+# then mkdir <projectName>
+# then git init
+# then 
+
+curl https://raw.githubusercontent.com/matthiasak/js-assignments/master/js-intro-fns-loops-rovarspraket/rovarspraket.js > rovarspraket.js
+```
+
+then add your own remote with `hub create rovarspraket`. Modify `roverspraket.js` to make the tests/assertions pass.
 
 Test your code with `npm test`
 
