@@ -14,7 +14,7 @@ console.assert(max(0,3) === 3);
 console.assert(max(10,3) === 10);
 console.assert(max(-1,-3) === -1);
 console.assert(max("aaa",0) === 0);
-console.assert(max("aaa","bbb") === NaN);
+console.assert(isNaN(max("aaa","bbb")));
 
 /**
  * PART 1
