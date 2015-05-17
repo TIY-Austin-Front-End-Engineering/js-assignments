@@ -27,7 +27,7 @@ curl https://raw.githubusercontent.com/matthiasak/js-assignments/master/js-intro
 
 then add your own remote with `hub create rovarspraket`. Modify `roverspraket.js` to make the tests/assertions pass.
 
-Test your code with `npm test`
+Test your code with `node rovarspraket.js`
 
 ### Requirements
 

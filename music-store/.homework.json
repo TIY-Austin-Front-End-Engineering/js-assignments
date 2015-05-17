@@ -1,11 +1,11 @@
 {
-    "name": "rot13",
+    "name": "music-store",
     "version": "0.0.1",
-    "title": "rot13",
-    "description": "rot13",
+    "title": "music-store",
+    "description": "music-store",
     "difficultyModes": [
         "Normal",
-        "Hard"
+        "Nightmare"
     ],
     "keywords": [
         "JavaScript"
