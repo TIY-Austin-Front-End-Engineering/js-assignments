@@ -5,12 +5,7 @@
 After completing this assignment, you should be able to:
 
 * Understand JS syntax
-* Understand how to run JS in either a browser or node
-* Understand how to create variables
-* Demonstrate understanding of JS types (primitives and objects)
-* Demonstrate understanding of functions, regular vs. functional functions, and arguments
-* Demonstrate understanding of loops, Array.prototype.forEach
-* Demonstrate understanding of conditionals[]
+* Demonstrate understanding of types, functions, argument-handling, loops, `Array.prototype.forEach`, and conditional statements
 
 ## Details
 
