@@ -1,53 +1,46 @@
 # color-clock
 
-## Description
+## Objectives
 
 This assignment serves to reinforce JS fundamentals with `setInterval`, writing to the DOM, practicing CSS animations, positions, and transforms, and finally breaking down complex problems into simple sequences in code.
 
-## Objectives
+After completing this assignment, you should be able to:
 
-### Learning Objectives
-
-After completing this assignment, you should:
-
-* Have mastery of general JS syntax
-* Be able to write a series of functions that achieve a series of steps
-* Understand arrays and loops, Math oeprations, Stirng operations, and DOM accessores
-* Be able to recite the meaning and importance of SOLID principles
+* Demonstrate understanding of functions, loops/array, variadic behavior
 * Be able to breakdown a simple process of mathematical steps into a series of statements in JS
-
-### Performance Objectives
-
-After completing this assignment, you should be able to effectively use:
-
-* The install tools and processes given to you to build a site with SCSS and JS
-* gh-pages
-* SOLID code that is clean, readable, and testable
+* Demonstrate Functional Programming methods
+* Convert numbers between binary and hex (using `parseInt()` and `Number.toString()`)
+* Demonstrate understanding of DOM APIs for querying, reading from, and writing to DOM elements
 
 ## Details
 
-### Deliverables
+### Instructions
 
-* A repo containing at least:
-    * The files provided by `npm install`
-    * A `main.js` file that holds your JS
+```sh
+# cd into your Github projects folder 
+# mkdir <projectname>
+# cd into that project
+# then ...
+
+$ git init
+
+$ hub create <projectName>
+
+$ curl https://raw.githubusercontent.com/TIY-Houston-Front-End-Engineering/Notes-Backbone-React-ES6/master/extras/package.json > package.json
+
+$ npm install
+
+```
 
 ### Requirements
 
-* No JSHint warnings or errors
-* All functions should be complete and produce the expected output
-* The clock should modify the colors of the background based on the time
+* Write some assertions for your JS code that converts decimal to hex, and vice-versa.
+* A visible, up-to-date `gh-pages` branch must be on Github. If you are pushing to Divshot / Heroku / AWS / etc, that is also fine... as long as we can load the page on the web!
 
-## Hard Mode
+## Normal Mode
 
-Create a new Github repo, setup your project files, and recreate the following screencapture as a webpage.
+Recreate this clock driven by CSS and JS:
 
 ![](./clock.gif)
 
-## Notes
 
-Notes go here...
-
-## Additional Resources
-
-* Read []()
