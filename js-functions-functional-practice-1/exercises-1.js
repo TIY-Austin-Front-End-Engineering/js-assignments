@@ -79,7 +79,7 @@ console.assert(sum(1, 2, 3, 4, 5) === 15)
 
 // ----------------------------
 // using Array.sort(), sort the following array
-// of people by last name
+// of people by name
 // ----------------------------
 
 var names = [
