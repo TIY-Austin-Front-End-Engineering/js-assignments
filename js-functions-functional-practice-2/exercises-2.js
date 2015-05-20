@@ -75,7 +75,7 @@ var plays = [
 
 var sh8spr = where(plays, {author: "Shakespeare"})
 console.assert(sh8spr instanceof Array)
-console.assert(sh8spr.length === 4)
+console.assert(sh8spr.length === 5)
 console.assert(sh8spr[0].title === "Cymbeline")
 
 sh8spr = where(plays, {author: "Shakespeare", year: 1611})
