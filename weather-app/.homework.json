@@ -1,8 +1,8 @@
 {
-    "name": "backbone-weather-model",
+    "name": "weather-app",
     "version": "0.0.1",
-    "title": "backbone-weather-model",
-    "description": "backbone-weather-model",
+    "title": "weather-app",
+    "description": "weather-app",
     "difficultyModes": [
         "Normal",
         "Nightmare"
