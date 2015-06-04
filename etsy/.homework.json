@@ -1,8 +1,8 @@
 {
-    "name": "map-filter-sort-jquery-etsy",
+    "name": "etsy",
     "version": "0.0.1",
-    "title": "map-filter-sort-jquery-etsy",
-    "description": "map-filter-sort-jquery-etsy",
+    "title": "etsy",
+    "description": "etsy",
     "difficultyModes": [
         "Normal",
         "Hard",
