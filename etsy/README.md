@@ -32,16 +32,12 @@ After completing this assignment, you should be able to:
 You're going to create an application that:
 
 - has two screens (will be drawn out on the whiteboard)
-- will use Backbone.Router (for navigation)
+- will use `hashchange` routing, such as with Backbone.Router (for navigation)
 - has two screens:
-    - screen 1 (the "home" screen) will display a list of products from Etsy (using the API for the data, and your own templates for the presentation)
-    - screen 2 (the "details" screen) will display details of a product from Etsy in greater detail
+    - screen 1 (the "home" screen) will display a list of products from Etsy
+    - screen 2 (the "details" screen) will display details of a single product from Etsy in greater detail
 
-## Normal Mode
-
-Build a JavaScript front-end app that consumes the Etsy API. 
-
-> Etsy API "getting started": https://www.etsy.com/developers/documentation/getting_started/api_basics
+**Etsy API "getting started":** https://www.etsy.com/developers/documentation/getting_started/api_basics
 
 There will be two screens/routes to be handled:
 
