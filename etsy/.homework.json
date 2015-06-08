@@ -1,11 +1,12 @@
 {
-    "name": "rot13",
+    "name": "etsy",
     "version": "0.0.1",
-    "title": "rot13",
-    "description": "rot13",
+    "title": "etsy",
+    "description": "etsy",
     "difficultyModes": [
         "Normal",
-        "Hard"
+        "Hard",
+        "Nightmare"
     ],
     "keywords": [
         "JavaScript"

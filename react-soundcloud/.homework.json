@@ -1,9 +1,10 @@
 {
-    "name": "map-filter-sort-jquery-etsy",
+    "name": "react-soundcloud",
     "version": "0.0.1",
-    "title": "map-filter-sort-jquery-etsy",
-    "description": "map-filter-sort-jquery-etsy",
+    "title": "react-soundcloud",
+    "description": "react-soundcloud",
     "difficultyModes": [
+        "Easy",
         "Normal",
         "Hard",
         "Nightmare"

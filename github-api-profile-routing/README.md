@@ -9,6 +9,7 @@ After completing this assignment, you should be able to:
 * Demonstrate Functional Programming methods
 * Demonstrate use of Promises and AJAX methods
 * Demonstrate ability to update DOM elements and their attributes/innerHTML via JS
+* __Demonstrate an understanding of routing, and it's role in "single page apps"__
 
 ## Details
 
@@ -32,31 +33,15 @@ After completing this assignment, you should be able to:
 * No JS errors in the browser
 * All functions and code should work according to the following description.
 
-## Easy Mode
-
-Recreate the HTML and CSS for the Github tab page (https://github.com/matthiasak?tab=repositories) as your design, and using two AJAX requests/Promises, pull your own profile information from Github:
-
-- Your profile: `https://api.github.com/users/<username>`
-- Your repos: `https://api.github.com/users/<username>/repos`
-
-After loading data from the Github API, write at least the following information to the DOM:
-
-- name
-- blog
-- location
-- email
-- an `<img>` with its source as the avatar_url
-- html_url
-- for each repo owned by your user, list that repo in a `<ul>`
-
 ## Hard Mode
 
-Create a `GithubClient` Constructor and Prototype chain that implements all the above functionality, but allows you to display multiple profiles on the page by creating multiple instances:
+Just as in the single [GitHub Profile assignment](https://github.com/matthiasak/js-assignments/tree/master/github-api-profile), 
 
-```js
-var matt = new GithubClient('matthiasak')
-var jesse = new GithubClient('jwo')
+- recreate the HTML and CSS for the Github tab page (https://github.com/matthiasak?tab=repositories)
+- using two AJAX requests/Promises, pull your own profile information from Github:
+    - your profile data: `https://api.github.com/users/<username>`
+    - your repo list: `https://api.github.com/users/<username>/repos`
 
-matt.appendTo('.container')
-jesse.appendTo('.container')
-```
+Using a router (such as `Backbone.Router`), let the `hashroute` determine what username is drawn to the screen.
+
+For example, if `http://localhost:3000/#matthiasak` is in the URL, then the profile `matthiasak` will be drawn to the screen. If the user changes the hashroute to `#jwo`, then the Github user `jwo` will be drawn to the screen.

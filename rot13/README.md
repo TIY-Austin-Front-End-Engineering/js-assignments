@@ -1,89 +1,50 @@
 # rot13
 
-## Description
-rot13
-
-
 ## Objectives
 
-### Learning Objectives
+After completing this assignment, you should be able to:
 
-After completing this assignment, you should:
-
-* Understand general JS syntax
-* Grasp why functions are important
-* Understand arrays and loops
-* Understand the meaning of String.charCodeAt()
-* Recall particular uses of Strings and their methods (charCodeAt(), charCodeFrom())
-* Be able to recite the meaning and importance of SOLID principles
+* Demonstrate understanding of functions, loops/array, String methods (`charCodeAt()`, `charCodeFrom()`), and variadic behavior
 * Be able to breakdown a simple process of mathematical steps into a series of statements in JS
-
-### Performance Objectives
-
-After completing this assignment, you should be able to effectively use:
-
-* The terminal and `node` to test your JS
 
 ## Details
 
-### Deliverables
+### Instructions
 
-* A repo containing at least:
-  * `main.js`
+```sh
+# cd into GH project folder
+# then mkdir <projectName>
+# then git init
+# then 
+
+curl https://raw.githubusercontent.com/matthiasak/js-assignments/master/rot13/rot13.js > rot13.js
+```
+
+then add your own remote with `hub create rot13`. Modify `rot13.js` to make the tests/assertions pass.
+
+Test your code with `node rot13.js`
 
 ### Requirements
 
-* The code meets the given requirements in the modes below.
+* All assertions in `rot13.js` pass
 
-## Easy Mode
+## Normal Mode
 
-> About ROT13 : http://en.wikipedia.org/wiki/ROT13
-
-Write two functions, `encode()`, and `decode()`, that compute the plaintext ("hello") and ciphertext ("uryyb").
-
-Here's where discussion ended at:
-
-```js
-function encode(phrase){
-    var result = "";
-    // .. for each character in phrase
-    for(var i = 0; i < phrase.length; i++){
-        // get the charCode if letter at index i
-        var cc = phrase[i].charCodeAt(0);
-        // add 13 to the letter's charCode
-        result += String.fromCharCode(cc+13);
-    }
-    return result;
-}
-
-console.log(encode("hello")); //---> "uryyb"
-
-function decode(phrase){
-
-}
-
-console.log(decode("uryyb")); //---> "hello"
-```
+Fill in the sections marked with `YOUR CODE HERE` to make the tests/assertions pass.
             
 ## Hard Mode
 
-In addition to the [Easy Mode](#easy-mode), make `encode2()` and `decode2()` take an optional, extra argument that takes a `rotation`:
+In addition to the Normal Mode, let functions `encode()` and `decode()` accept an optional, second argument that takes a number `rotation`:
 
 ```js
-function encode2(phrase, rotation){
-    
-}
+encode("hello") //---> "uryyb"
+decode("uryyb") //---> "hello"
 
-console.log(encode("hello")); //---> "uryyb"
-
-function decode2(phrase, rotation){
-
-}
-
-console.log(decode("uryyb")); //---> "hello"
+encode("hello", 2) //---> "jgnnq"
+decode("jgnnq", 2) //---> "hello"
 ```
 
-## Notes
+## Resources
 
 - http://en.wikipedia.org/wiki/ROT13
 - http://devdocs.io/

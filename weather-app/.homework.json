@@ -1,11 +1,11 @@
 {
-    "name": "rot13",
+    "name": "weather-app",
     "version": "0.0.1",
-    "title": "rot13",
-    "description": "rot13",
+    "title": "weather-app",
+    "description": "weather-app",
     "difficultyModes": [
         "Normal",
-        "Hard"
+        "Nightmare"
     ],
     "keywords": [
         "JavaScript"
