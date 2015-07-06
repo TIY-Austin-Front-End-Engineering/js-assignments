@@ -55,9 +55,9 @@ After completing this assignment, you be able to effectively use
 
 
 ## Normal Mode
-Using your knowledge of HTML and CSS, replicate the mobile layout displayed in [this image file](/page1.png) in a file called `index.html` within your dist directory.
+Using your knowledge of HTML and CSS, replicate the mobile layout displayed in [this image file](/mobile-layout-1/page1.png) in a file called `index.html` within your dist directory.
 
-Next, replicate the mobile layout displayed in [this image file](/page2.png) in a file called `page2.html` within your dist directory.
+Next, replicate the mobile layout displayed in [this image file](/mobile-layout-1/page2.png) in a file called `page2.html` within your dist directory.
 
 You'll notice that only the first layout has pixel dimensions labeled for you. You must determine the correct measurements for yourself for the second page. Command+Shift+4 is your friend.
 
