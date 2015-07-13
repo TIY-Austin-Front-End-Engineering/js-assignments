@@ -45,7 +45,7 @@ After completing this assignment, you be able to effectively use
 
 
 ## Normal Mode
-Download [this zip file](/raw/choose-your-adventure/choose-your-adventure/dist.zip) and unzip it. Modify the `game.js` file to create a choose your own adventure style game. Use boolean logic, string comparison and if statements to create a choose your own adventure style game. The theme is up to you.
+Download the `dist.zip` file in this repository and unzip it. Modify the `game.js` file to create a choose your own adventure style game. Use boolean logic, string comparison and if statements to create a choose your own adventure style game. The theme is up to you.
 
 Use the following commands to create the game...
 
