@@ -15,7 +15,7 @@ After completing this assignment, you should…
 
 ### Performance Objectives
 
-After completing this assignment, you be able to effectively use
+After completing this assignment, you will be able to effectively use
 
 * the CSS specificity boxes to determine which properties will be applied.
 
