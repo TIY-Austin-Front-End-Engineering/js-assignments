@@ -48,13 +48,13 @@ After completing this assignment, you be able to effectively use
 Using the tools you've learned in class, create a responsive image board that allows you to add images and captions via a url. The images that are added to the image board should be saved to tiny pizza server, so that when you reload the page, they are not lost. The form to add an image should properly validate the image URL by at minimum checking for a http:// or https:// prefix and require a non-empty description. Below are screenshots of what your app should look like.
 
 ### Mobile
-![Mobile](/mobile.png)
+![Mobile](mobile.png)
 
 ### Desktop
-![Desktop](/desktop.png)
+![Desktop](desktop.png)
 
 ### Add Image Form
-![Add](/add.png)
+![Add](add.png)
 
 ### Desktop
 
