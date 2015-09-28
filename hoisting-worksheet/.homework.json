@@ -1,0 +1,15 @@
+{
+    "name": "hoisting-worksheet",
+    "version": "0.0.1",
+    "title": "JavaScript Hoisting Practice",
+    "description": "A few sample problems to brush up on Javascript hoisting",
+    "difficultyModes": [
+        "Normal"
+    ],
+    "keywords": [
+        "JavaScript",
+        "hoisting",
+        "interview",
+        "practice"
+    ]
+}
