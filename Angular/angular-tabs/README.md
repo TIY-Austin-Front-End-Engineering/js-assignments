@@ -37,7 +37,7 @@ After completing this assignment, you be able to effectively use
 
 ## Normal Mode
 Replicate the following behavior using angular.
-![Example](/tabs.gif)
+![Example](tabs.gif)
 
 ## Hard Mode
 Modify your code so that the currently selected tab is highlighted - denoting which piece of content you are viewing.

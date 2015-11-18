@@ -41,7 +41,7 @@ After completing this assignment, you be able to effectively use
 
 ## Normal Mode
 Replicate the following behavior using angular.
-![Example](/output.gif)
+![Example](output.gif)
             
 
 

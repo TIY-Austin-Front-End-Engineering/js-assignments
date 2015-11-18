@@ -52,8 +52,8 @@ After completing this assignment, you be able to effectively use
 
 ## Hard Mode
 Style your login form to look like this:
-![Designed](/login.png)
-The Logo used can be [found here](/treemoLabs-logo.png). The background patterns can be found [here](/bg-login-top.png) and [here](/bg-login.png).
+![Designed](login.png)
+The Logo used can be [found here](treemoLabs-logo.png). The background patterns can be found [here](bg-login-top.png) and [here](bg-login.png).
 
 ## Insane Mode
 Use tiny pizza server (or sails) and jQuery to check the username and password combination against a list retreived from the server instead of from a hard coded list in the controller. Log each login attempt on the tiny pizza server for later lookup.
