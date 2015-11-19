@@ -49,7 +49,7 @@ After completing this assignment, you be able to effectively use
 
 ## Normal Mode
 Using the tools you've learned in class, create a sortable, filterable table of US states. The table should look and behave like the example below including showing and hiding arrows on the table headings indicating which direction the table is currently being sorted (and on which column). You should be able to type into the filter box and only show states that match the filter string on either the state name or abbreviation. Filtering on "tx" and "te" should both show Texas. The filtering should be case insensitive (both upper and lower case filter strings should work). You should use underscore or lodash methods to handle the filtering in your code.
-![Fancy Table](/example.gif)
+![Fancy Table](example.gif)
 
 ## Hard Mode
 If you're feeling adventurous, pull your states data from: http://tiny-pizza-server.herokuapp.com/collections/fancy-table
