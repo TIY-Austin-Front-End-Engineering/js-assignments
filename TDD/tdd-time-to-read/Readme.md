@@ -4,7 +4,7 @@
 [Medium](http://medium.com), a popular blogging platform, incorporates a cool little feature to every post that tells you approximately how long it will take you to read an article/post.
 ![Medium.com time to read example](assets/timetoreadMedium.png)
 
-For this assignment, you will be creating this feature by fixing the failing tests in `spec/read.spec.js` by updating the `read.js` file.
+For this assignment, you will be creating this feature by fixing the failing tests in `spec/read.spec.js` by updating the `readTime.js` file.
 
 ### Learning Objectives
 
