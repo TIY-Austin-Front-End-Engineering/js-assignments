@@ -77,3 +77,38 @@ The entire application will also have a new feature where anyone can create a cu
 
 * [jQuery $.ajax() API](http://api.jquery.com/category/ajax/)
 * [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers.setInterval)
+
+## Instructor Notes
+
+[Tiny Server](https://github.com/masondesu/tiny-server) is used for this assignment as it is an easy way to allow the students to learn AJAX without the complexities of most security scenarios associated with performing CRUD.
+
+[https://github.com/masondesu/tiny-server](https://github.com/masondesu/tiny-server) has a deploy to heroku button, but if you already are hooked into [Heroku](https://heroku.com) and have the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed you can do everything from the command line, as follows:
+
+```bash
+# clone the repo
+git clone git@github.com:masondesu/tiny-server.git
+
+# cd into folder
+cd tiny-server
+
+# add heroku remote and create app
+heroku create <app-name>
+
+# add mongolab database - env.MONGOLAB_URI is already set up
+heroku addons:create mongolab
+
+# push to heroku remote
+git push heroku master
+```
+
+*NOTE: You'll need a credit card on file to use the addons, but its free.
+
+[Tiny Server](https://github.com/masondesu/tiny-server) CRUD routes:
+
+```js
+http://<app-name>.herokuapp.com/collections/<collectionName>     // GET
+http://<app-name>.herokuapp.com/collections/<collectionName>     // POST
+http://<app-name>.herokuapp.com/collections/<collectionName>/:id // GET
+http://<app-name>.herokuapp.com/collections/<collectionName>/:id // PUT
+http://<app-name>.herokuapp.com/collections/<collectionName>/:id // DELETE
+```
